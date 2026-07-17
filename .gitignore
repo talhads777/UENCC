@@ -1,0 +1,11 @@
+dist/
+build/
+*.exe
+*.log
+uencc_state.json
+uencc_commands.json
+__pycache__/
+*.spec
+.env
+*.pyz
+*.pkg

@@ -1,0 +1,7 @@
+streamlit
+PyYAML
+python-dotenv
+watchdog
+pytest
+pyinstaller
+psutil

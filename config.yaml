@@ -1,0 +1,13 @@
+system:
+  log_level: "INFO"
+  state_file: "uencc_state.json"
+  command_file: "uencc_commands.json"
+
+executive:
+  obsidian_vault_path: "./mock_vault"
+  scan_interval_seconds: 60
+
+network:
+  target_subnet: "192.168.1.0/24"
+  router_ip: "192.168.1.1"
+  scan_ports: [22, 80, 443, 3389, 8080]
